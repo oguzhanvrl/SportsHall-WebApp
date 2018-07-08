@@ -89,11 +89,79 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\animate.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\linearicons.css" />
+    <Content Include="Content\css\login.css" />
+    <Content Include="Content\css\magnific-popup.css" />
+    <Content Include="Content\css\main.css" />
+    <Content Include="Content\css\nice-select.css" />
+    <Content Include="Content\css\owl.carousel.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\Linearicons-Free.svg" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\akbey-akademi-logo.png" />
+    <Content Include="img\akbeyakademi-logo.png" />
+    <Content Include="img\footer.png" />
+    <Content Include="img\blog\akbey-blog.jpg" />
+    <Content Include="img\blog\cocuklar-icin-taekwondo-yararlari.jpg" />
+    <Content Include="img\blog\poomse-nedir.jpg" />
+    <Content Include="img\blog\taekwondo-malzemeleri.jpg" />
+    <Content Include="img\blog\taekwondo-tarihi.jpg" />
+    <Content Include="img\favicon.ico" />
+    <Content Include="img\gold-medal.png" />
+    <Content Include="img\portfolio\p1.jpg" />
+    <Content Include="img\portfolio\p2.jpg" />
+    <Content Include="img\portfolio\p3.jpg" />
+    <Content Include="img\portfolio\p4.jpg" />
+    <Content Include="img\portfolio\p5.jpg" />
+    <Content Include="img\portfolio\p6.jpg" />
+    <Content Include="img\portfolio\preview.png" />
+    <Content Include="img\varolsoft.png" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\Linearicons-Free.eot" />
+    <Content Include="Content\fonts\Linearicons-Free.ttf" />
+    <Content Include="Content\fonts\Linearicons-Free.woff" />
+    <Content Include="Content\fonts\Linearicons-Free.woff2" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\js\easing.min.js" />
+    <Content Include="Scripts\js\hoverIntent.js" />
+    <Content Include="Scripts\js\isotope.pkgd.min.js" />
+    <Content Include="Scripts\js\jquery.ajaxchimp.min.js" />
+    <Content Include="Scripts\js\jquery.counterup.min.js" />
+    <Content Include="Scripts\js\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\js\jquery.nice-select.min.js" />
+    <Content Include="Scripts\js\jquery.tabs.min.js" />
+    <Content Include="Scripts\js\mail-script.js" />
+    <Content Include="Scripts\js\main.js" />
+    <Content Include="Scripts\js\owl.carousel.min.js" />
+    <Content Include="Scripts\js\popper.min.js" />
+    <Content Include="Scripts\js\simple-skillbar.js" />
+    <Content Include="Scripts\js\superfish.min.js" />
+    <Content Include="Scripts\js\vendor\bootstrap.min.js" />
+    <Content Include="Scripts\js\vendor\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\js\waypoints.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\trController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,7 +169,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\tr\Anasayfa.cshtml" />
+    <Content Include="Views\tr\Galeri.cshtml" />
+    <Content Include="Views\tr\Blog.cshtml" />
+    <Content Include="Views\tr\Iletisim.cshtml" />
+    <Content Include="Views\tr\Hakkimizda.cshtml" />
+    <Content Include="Views\tr\KayitOl.cshtml" />
+    <Content Include="Views\tr\Panel.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,7 +192,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
